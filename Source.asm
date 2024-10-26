@@ -4,9 +4,6 @@ GetStdHandle PROTO, nStdHandle:DWORD
 WriteConsoleA PROTO, a1:DWORD, a2:PTR BYTE, a3:DWORD, a4:PTR DWORD, a5:DWORD
 
 .DATA
-hStdOut HANDLE ?
-bufferSize COORD <40, 15>
-windowRect SMALL_RECT <0, 0, 39, 14>
 
 ;Style
     ;Box Boundary
